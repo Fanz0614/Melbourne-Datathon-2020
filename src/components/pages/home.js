@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../app.css';
+import './style.css';
 import HeroSection from '../HeroSection/index.js';
 
 function Home(){
