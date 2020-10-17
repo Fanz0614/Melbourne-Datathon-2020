@@ -12,8 +12,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/report' component={Report} />
-          <Route path='/home' component={Cards} /> 
-          <Route path='/MelbDatathon-2020' exact component={Home}/>
+          <Route path='/home' component={Cards} />
         </Switch>
       </Router>
       

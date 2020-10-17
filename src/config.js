@@ -1,4 +1,4 @@
-export const root = '/MelbDatathon-2020';
+export const root = '/Melbourne-Datathon-2020';
 
 export const vids = {
     video1: '/videos/video-1.mp4',

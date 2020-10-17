@@ -3,12 +3,11 @@ import { Button } from '../button/index.js';
 import './style.css';
 import {root, vids} from '../../config.js';
 
-
 function HeroSection(){
     const Video=()=>window.open('about:blank').location.href='http://www.Youtube.com';
     const Click=()=>window.location.href='home';
         
-
+    console.log('---->', root);
     
     return(
         <div className='hero-container'>
