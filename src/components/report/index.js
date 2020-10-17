@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import {Graph,Pic} from './style.js';
+import {root, imgs} from '../../config.js';
+
 class Report extends React.Component{
     render(){
         return(
@@ -16,7 +18,7 @@ class Report extends React.Component{
                         </Graph>
                         <Graph>sss</Graph>
                         
-                        <Pic src='./images/img-1.jpg' />
+                        <Pic src={root + imgs.img1} />
 
                         <Graph>
                         Using the daily Victorian electricity demand as an example, this blog will outline procedures to develop a forecasting model. To enable scheduling of energy supply for the next day I develop one day ahead forecasts. In my next post I will use this model to outline procedures to improve forecasting capability during uncertain times.
