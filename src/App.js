@@ -13,6 +13,7 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/report' component={Report} />
           <Route path='/home' component={Cards} />
+          <Route path='/Melbourne-Datathon-2020' exact component={Home}/>
         </Switch>
       </Router>
       
