@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import CardItem from './CardItem.js';
 import Footer from '../footer/Footer.js';
+import {root, imgs} from '../../config.js';
 
 function Cards() {
   return (
@@ -11,13 +12,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src={root + imgs.img1}
               text='xxxxxx'
               label='xxx'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src={root + imgs.img2}
               text='xxxxxxxxxx'
               label='xxx'
               path='/services'
@@ -25,19 +26,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src={root + imgs.img3}
               text='xxxxxxxxxxxxxxxxxxxxxxxxxxx'
               label='xxx'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src={root + imgs.img4}
               text='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
               label='xxx'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src={root + imgs.img8}
               text='xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
               label='xxx'
               path='/sign-up'
