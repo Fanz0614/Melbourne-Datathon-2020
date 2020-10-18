@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Melbourne-Datathon-2020/precache-manifest.beed7f829714ff07f23bc28521112e75.js"
+  "/Melbourne-Datathon-2020/precache-manifest.003ae9c95b21cbe043180ee0f02bd844.js"
 );
 
 self.addEventListener('message', (event) => {
