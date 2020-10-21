@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/navbar/index.js'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './components/pages/home.js';
+import Report from './components/report/index.js';
+import Cards from './components/body/index.js';
+import { Provider } from 'react-redux';
+import store from './store/index.js';
+import Echarts from './components/visulization/index.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Provider store={store}>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home}/>
+          <Route path='/report' component={Report} />
+          <Route path='/home' component={Cards} />
+          <Route path='/echarts' component={Echarts} />
+        </Switch>
+      </Router>
+      </Provider>   
+      
     </div>
   );
 }
