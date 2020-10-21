@@ -1,19 +1,20 @@
+// Environment URL
 export const root = process.env.PUBLIC_URL;
 
+// All videos link
 export const vids = {
-    video1: '/videos/video-1.mp4',
-    video2: '/videos/video-2.mp4'
+    video: '/videos/video.mp4',
+    final_video: 'https://youtu.be/y_RF1ZruD7Q',
+    youtube_id: 'y_RF1ZruD7Q'
 }
 
+// Images link
 export const imgs = {
-    img1: '/images/img-1.jpg',
-    img2: '/images/img-2.jpg',
-    img3: '/images/img-3.jpg',
-    img4: '/images/img-4.jpg',
-    img5: '/images/img-5.jpg',
-    img6: '/images/img-6.jpg',
-    img7: '/images/img-7.jpg',
-    img8: '/images/img-8.jpg',
+    nsw: '/images/nsw.jpg',
+    vic: '/images/vic.jpg',
+    sa: '/images/sa.jpg',
+    qld: '/images/qld.png',
+    tas: '/images/tas.gif',
     pdf: '/images/report.pdf',
     imgHome: '/images/img-home.jpg',
 }

@@ -4,31 +4,31 @@ import './style.css';
 import {root, vids} from '../../config.js';
 
 function HeroSection(){
-    const Video=()=>window.open('about:blank').location.href='https://youtu.be/y_RF1ZruD7Q';
-    const Click=()=>window.location.href='home';
+    const Video=()=>window.location.href='video';
+    const Click=()=>window.location.href='charts';
         
     
     return(
         <div className='hero-container'>
-            <video src={root + vids.video2} autoPlay loop muted />
-            <h1>ssss</h1>
-            <p>ssssss</p>
+            <video src={root + vids.video} autoPlay loop muted />
+            <h1>M-stars</h1>
+            <p>Datathon 2020</p>
             <div className='hero-btns'>
                 <Button className='btns' 
-                        buttonStyle='btn--outline' 
+                        buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         onClick={Click}>
-                    GET STARTED
+                    <i class="fas fa-chart-line"></i>
+                    CHARTS 
                 </Button>
                 
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={Video}
-                    
-                    >
-                    WATCH VIDEO <i className='far fa-play-circle' />
+                    onClick={Video}>
+                    <i className='far fa-play-circle' />
+                    VIDEO 
                 </Button>
             </div>
         </div>

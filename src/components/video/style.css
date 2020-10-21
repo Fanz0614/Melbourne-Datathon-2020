@@ -1,0 +1,12 @@
+.video-container{
+    height: 300px;
+    width: 50vw;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-top: 1%;
+}
+
+.outter-container{
+  padding-top: 3%;
+}

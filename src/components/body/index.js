@@ -7,41 +7,34 @@ import {root, imgs} from '../../config.js';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>XXXXXXXXXXX</h1>
+      {/* <h1>Chart: States</h1> */}
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={root + imgs.img1}
-              text='xxxxxx'
-              label='xxx'
+              src={root + imgs.nsw}
+              text='New South Wales'
               path='/echarts'
             />
             <CardItem
-              src={root + imgs.img2}
-              text='xxxxxxxxxx'
-              label='xxx'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src={root + imgs.img3}
-              text='xxxxxxxxxxxxxxxxxxxxxxxxxxx'
-              label='xxx'
-              path='/services'
+              src={root + imgs.vic}
+              text='Victoria'
+              path='/echarts'
             />
             <CardItem
-              src={root + imgs.img4}
-              text='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-              label='xxx'
-              path='/products'
+              src={root + imgs.sa}
+              text='South Australia'
+              path='/echarts'
             />
             <CardItem
-              src={root + imgs.img8}
-              text='xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-              label='xxx'
-              path='/sign-up'
+              src={root + imgs.qld}
+              text='Queensland'
+              path='/echarts'
+            />
+            <CardItem
+            src={root + imgs.tas}
+            text='Tasmania'
+            path='/echarts'
             />
           </ul>
         </div>

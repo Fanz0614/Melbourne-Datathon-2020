@@ -19,22 +19,29 @@ function Navbar(){
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                    <Link to='/home' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
-                        Home
-                    </Link>
-
+                        <Link to='/' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
+                            Home
+                        </Link>
                         </li>
                         <li className='nav-item'>
+                        <Link to='/charts' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
+                            Charts
+                        </Link>
+                        </li>
+                        {/* <li className='nav-item'>
                             <Link to='/report' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
                                 Report
                             </Link>
-                            
+                        </li> */}
+                        <li className='nav-item'>
+                            <Link to='/Video' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
+                                Video
+                            </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/Team' className='nav-links' onClick={closeMenu} style={{ textDecoration:'none'}}>
                                 Team
                             </Link>
-                            
                         </li>
                     </ul>
 

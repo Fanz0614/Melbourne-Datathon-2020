@@ -41,7 +41,11 @@ video{
   }
   
   .fa-play-circle {
-    margin-left: 4px;
+    margin-right: 8px;
+  }
+
+  .fa-chart-line {
+    margin-right: 8px;
   }
   
   @media screen and (max-width: 960px) {

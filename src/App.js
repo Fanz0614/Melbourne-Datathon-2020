@@ -6,7 +6,9 @@ import Report from './components/report/index.js';
 import Cards from './components/body/index.js';
 import { Provider } from 'react-redux';
 import store from './store/index.js';
-import Echarts from './components/visulization/index.js'
+import Echarts from './components/visulization/index.js';
+import Video from './components/video/index.js';
+
 function App() {
   return (
     <div>
@@ -16,8 +18,9 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/report' component={Report} />
-          <Route path='/home' component={Cards} />
+          <Route path='/charts' component={Cards} />
           <Route path='/echarts' component={Echarts} />
+          <Route path='/video' exact component={Video} />
         </Switch>
       </Router>
       </Provider>   
