@@ -14,27 +14,27 @@ function Cards() {
             <CardItem
               src={root + imgs.nsw}
               text='New South Wales'
-              path='/echarts'
+              path='/NSW'
             />
             <CardItem
               src={root + imgs.vic}
               text='Victoria'
-              path='/echarts'
+              path='/VIC'
             />
             <CardItem
               src={root + imgs.sa}
               text='South Australia'
-              path='/echarts'
+              path='/SA'
             />
             <CardItem
               src={root + imgs.qld}
               text='Queensland'
-              path='/echarts'
+              path='/QLD'
             />
             <CardItem
             src={root + imgs.tas}
             text='Tasmania'
-            path='/echarts'
+            path='/TAS'
             />
           </ul>
         </div>

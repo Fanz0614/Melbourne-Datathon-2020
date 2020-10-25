@@ -11,10 +11,10 @@ export const vids = {
 // Images link
 export const imgs = {
     nsw: '/images/nsw.jpg',
-    vic: '/images/vic.jpg',
-    sa: '/images/sa.jpg',
+    vic: '/images/vic.png',
+    sa: '/images/SA.jpg',
     qld: '/images/qld.png',
-    tas: '/images/tas.gif',
+    tas: '/images/tas.jpg',
     pdf: '/images/report.pdf',
     imgHome: '/images/img-home.jpg',
 }

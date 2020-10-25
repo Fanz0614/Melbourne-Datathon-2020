@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    
   }
   
   h1 {
@@ -22,13 +23,15 @@
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    
   }
   
   .cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
+    padding-bottom:0px;
     border-radius: 10px;
   }
   
@@ -42,6 +45,7 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    padding: 5px 50px 10px;
   }
   
   .cards__item__pic-wrap {
@@ -54,6 +58,7 @@
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
+    
   }
   
   /* .cards__item__pic-wrap::after {
@@ -79,7 +84,7 @@
     display: block;
     width: 100%;
     max-width: 100%;
-    height: 100%;
+    height: auto;
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
@@ -90,7 +95,7 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 30px 20px;
   }
   
   .cards__item__text {

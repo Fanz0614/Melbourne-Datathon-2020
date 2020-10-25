@@ -8,6 +8,11 @@ import { Provider } from 'react-redux';
 import store from './store/index.js';
 import Echarts from './components/visulization/index.js';
 import Video from './components/video/index.js';
+import NSWcards from './components/NSW/index.js';
+import VICcards from './components/VIC/index.js';
+import TAScards from './components/TAS/index.js';
+import SAcards from './components/SA/index.js';
+import QLDcards from './components/QLD/index.js';
 
 function App() {
   return (
@@ -19,7 +24,15 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/report' component={Report} />
           <Route path='/charts' component={Cards} />
-          <Route path='/echarts' component={Echarts} />
+          <Route path='/NSW' component={NSWcards} />
+          <Route path='/VIC' component={VICcards} />
+          <Route path='/TAS' component={TAScards} />
+          <Route path='/SA' component={SAcards} />
+          <Route path='/QLD' component={QLDcards} />
+          
+          <Route path='/NSW-echarts' component={Echarts} />
+          
+          
           <Route path='/video' exact component={Video} />
         </Switch>
       </Router>
